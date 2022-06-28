@@ -1,0 +1,16 @@
+{
+    "name" : "saleh097/global-counter-laravel",
+    "description" : "just simple counter for practicing purpose",
+    "autoload" : {
+        "psr-4" : {
+            "CountingUtil\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CountingUtil\\Providers\\CounterServiceProvider"
+            ]
+        }
+    }
+}
